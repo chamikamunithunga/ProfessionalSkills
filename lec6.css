@@ -1,0 +1,441 @@
+/* Navbar Styling */
+
+body{
+    background-image: url(lecbg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    line-height: 1.6;
+
+}
+
+
+
+
+
+
+/* Navbar Styles */
+nav {
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    background-image: url(lecbg.jpg);
+    color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    margin-right: auto; /* Pushes logo to the left */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #00ff2a;
+}
+
+/* Main Content Styling */
+.content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #ffffff;
+}
+
+/* Image Section Styling */
+.image-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.image-container {
+    flex: 1;
+    text-align: center;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.05);
+}
+
+.image-description {
+    font-size: 1rem;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+/* Video Section Styling */
+.video-section {
+    text-align: center;
+}
+
+.video-section video {
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #ffffffcf;
+}
+
+.video-description {
+    font-size: 2rem;
+    color: #000000;
+    margin-top: 10px;
+}
+
+
+
+
+
+/* Scroll to Top Button */
+#scrollTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    padding: 15px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    z-index: 1000;
+}
+
+#scrollTopButton:hover {
+    background-color: #0056b3;
+}
+
+
+.description {
+    font-size: 1.3rem;
+    color: #ffffff;
+    margin-top: 10px;
+    text-align: center;
+}
+.description h4{
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-top: 10px;
+    text-align: center;
+}
+.description img{
+    width: 600px;
+    height: 400px;
+    border-radius: 30px;
+    box-shadow: 0 8px 10px #020f67;
+    margin-left: 15px;
+
+    
+
+
+}
+
+.ishari{
+    background-image: url(isha.jpg);
+    background-size: cover;
+
+
+}
+.ishari h1{
+    color: #000000;
+    text-align: center;
+    margin-top: 10px;
+}
+.ishari img {
+    width: 200px; /* Adjust the size as needed */
+    height: 200px; /* Same as width to make it a perfect circle */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image is centered and fills the circle without distortion */
+    margin: 0 auto; /* Centers the image horizontally within the container */
+    display: block; /* Ensures the image behaves like a block element to be centered */
+}
+
+.ishari h2{
+    color: #000000;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ishari h3{
+    color: #000000;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+
+
+/* description */
+.description {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 10px; /* Rounded corners */
+    
+}
+
+.image-container {
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 100%; /* Responsive image */
+    border-radius: 10px; /* Slightly rounded edges */
+}
+
+h4 {
+    color: #00cefc; 
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.eskills {
+    margin-top: 20px;
+    color: #ffffff; /* Highlight color */
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+ul {
+    list-style: none; /* Removes default bullets */
+    padding: 0; /* Removes padding */
+    margin: 20px 0;
+    text-align: left; /* Aligns list to the left */
+}
+
+ul li {
+    background: #0b2e4b; /* Subtle blue background */
+    padding: 4px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px; /* Rounded list items */
+    font-size: 1rem;
+    color: #ffffff;
+    box-shadow: 0px 2px 5px #0000001a;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+
+p {
+    margin: 10px 0;
+    color: #ffffff; /* Grey text for readability */
+}
+
+.employee{
+    background-color: #13546a;
+}
+.employee h2{
+    color: aqua;
+    margin-left: 20px;
+    text-align: center;
+}
+.employee h3{
+    color: #00ffdd;
+    margin-left: 40px;
+}
+.employee p{
+    color: #ffffff;
+    margin-left: 70px;
+}
+
+
+/* improve */
+.improve{
+    background-color: #063959;
+}
+.improve h2{
+    color: aqua;
+    margin-left: 20px;
+    text-align: center;
+
+
+}
+.improve h3{
+    color: #0ca2d0;
+    margin-left: 40px;
+
+}
+.improve p{
+    color: #ffffff;
+    margin-left: 60px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer styling */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-image: url(ff.webp);
+    color: #fff;
+}
+
+.footer-left {
+    width: 50%;
+}
+
+.footer-left h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-left ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-left ul li {
+    margin-bottom: 5px;
+}
+
+.footer-left ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-left ul li a:hover {
+    text-decoration: underline;
+}
+
+.image-links {
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-links a img {
+    width: 80px; /* Small image size */
+    height: 80px;
+    border-radius: 50%; /* Makes images circular */
+    transition: transform 0.3s ease;
+}
+
+.image-links a img:hover {
+    transform: scale(1.1); /* Slightly enlarges on hover */
+}
+
+.footer-right {
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem; /* Large font for two-word text */
+    font-weight: bold;
+    text-align: right;
+}
+
+
+
+
+
+
+
+/* importance */
+.importance{
+    background-color: #0b2e4b;
+}
+.importance p{
+    color: #0fe0c0;
+    font-size: 1.5rem;
+
+
+}
+.importance h2{
+    color: #ffffff;
+    text-align: center;
+}
+
+
+
+.download-button {
+    text-align: center; /* Centers the button */
+    margin-top: 20px; /* Adds space above the button */
+}
+
+.download-button button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 15px 32px; /* Adds padding to the button */
+    text-align: center; /* Centers text inside the button */
+    font-size: 16px; /* Sets font size */
+    border: none; /* Removes border */
+    cursor: pointer; /* Makes the cursor a pointer on hover */
+    border-radius: 5px; /* Adds rounded corners */
+    transition: background-color 0.3s; /* Adds smooth transition on hover */
+}
+
+.download-button button:hover {
+    background-color: #45a049; /* Changes button color when hovered */
+}
+
+
+.dif{
+    background-color: #031e4ad0;
+    justify-content: center;
+    text-align: center;
+}
+
+.dif h3{
+    color: #00ffff;
+    text-align: center;
+}
+.dif img{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 15px;
+    gap: 50px;
+    
+
+}
+
+.methods{
+    background-color: #031e4ad0;
+    justify-content: center;
+    text-align: center;
+}
+.methods h2{
+    color: #00ffff;
+}
+
+
